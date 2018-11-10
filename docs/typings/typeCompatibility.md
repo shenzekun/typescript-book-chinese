@@ -94,7 +94,7 @@ iTakePoint2D({ x: 0 }); // Error: 没有 'y'
 对于存在完全可变数据的健全的类型系统（如 JavaScript），`Invariant` 是一个唯一的有效可选属性，但是如我们说讨论的，*便利性*迫使我们作出一些不是很安全的选择。
 :::
 
-关于协变和逆变的更多内容，请参考：[What are covariance and contravariance?](https://www.stephanboyer.com/post/132/what-are-covariance-and-contravariance)。
+关于协变和逆变的更多内容，请参考：[协变与逆变](/tips/covarianceAndContravariance.html)。
 
 ## 函数
 
@@ -332,7 +332,7 @@ let reverse = function<U>(y: U): U {
 identity = reverse; // ok, 因为 `(x: any) => any` 匹配 `(y: any) => any`
 ```
 
-类中的泛型兼容性与前文所提到的一致：
+类中的泛型兼容性与前文所提及一致：
 
 ```ts
 class List<T> {

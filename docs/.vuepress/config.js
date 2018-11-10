@@ -67,7 +67,8 @@ module.exports = {
           '/typings/indexSignatures',
           '/typings/movingTypes',
           '/typings/exceptionsHanding',
-          '/typings/mixins'
+          '/typings/mixins',
+          '/typings/thisType'
         ]
       },
       {
@@ -102,7 +103,8 @@ module.exports = {
           '/tips/truthy',
           '/tips/buildToggles',
           '/tips/typesafeEventEmitter',
-          '/tips/thisType.md'
+          '/tips/metadata',
+          '/tips/covarianceAndContravariance'
         ]
       },
       {
@@ -122,7 +124,7 @@ module.exports = {
       {
         title: 'TypeScript 更新',
         collapsable: false,
-        children: ['/release/TypeScript 3.1', '/release/TypeScript 3.0']
+        children: []
       }
     ]
   }
